@@ -1,0 +1,5 @@
+fig = plt.figure(figsize=(10, 7))
+plt.plot(np.arange(len(losses))*100,losses, 'o-')
+plt.xlabel('epoch')
+plt.ylabel('MSE')
+plt.show()
